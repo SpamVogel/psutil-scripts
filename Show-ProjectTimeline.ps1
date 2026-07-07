@@ -1,7 +1,7 @@
 Add-Type -AssemblyName System.Windows.Forms
 Add-Type -AssemblyName System.Windows.Forms.DataVisualization
 
-$csvFile = "A:\UserPM\Downloads\ProjectTimeline.csv"
+$csvFile = ".\ProjectTimeline.csv"
 $jiraBaseUrl = "https://company.atlassian.net/browse/"
 
 $form = New-Object Windows.Forms.Form
