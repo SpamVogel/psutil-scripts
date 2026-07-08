@@ -132,7 +132,7 @@ End: $(([datetime]$task.End).ToString("dd.MM.yyyy"))
 }
 
 $chart.Add_MouseClick({
-	param($sEndr,$e)
+	param($sEndr,$event)
 	$result =
 	$chart.HitTest(
 		$event.X,
